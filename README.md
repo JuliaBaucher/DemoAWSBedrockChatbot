@@ -15,8 +15,6 @@ Select the region where Amazon Bedrocj is available, for example Frankfurt
 
 Create a new Lambda function, for example: **YourName**
 
-
-
 ## Code Upload
 - Go to the **Code** tab.
 - Click **Upload from** → **.zip file**.
@@ -36,7 +34,6 @@ Add the following environment variables:
     For example, You are a helpful AI assistant on YourName's professional CV website. Answer politely, concisely, and factually, adapting to the user’s language when possible (French or English preferred). If a question is ambiguous, ask a short clarifying question before answering. Context: Put the summary of your CV
   
   Click **Deploy**.
-
 ---
 
 # 2. IAM Role
@@ -49,7 +46,6 @@ Add the following environment variables:
   - Click **Add permissions** → **Attach policies**.
   - Search for **AmazonBedrockFullAccess**.
   - Select it and click **Add permissions** at the bottom of the page.
-
 ---
 
 # 3. API Gateway Configuration
@@ -69,21 +65,16 @@ Add the following environment variables:
 
 ### Stage
 - **Stage name**: `prod`
-
 - Go to **Lambda** → **Triggers** and copy the **API endpoint**.
 
-
 # 4. Create a Single Webpage
-
 
 - Open the prompt and Add your API endpoint in the prompt in the section ##API - 'Endpoint URL: **TO BE PROVIDED**
 - Use the provided prompt in any LLM (e.g. ChatGPT). 
 - Copy the generated HTML code into a text file and name it **index.html**.
-
 ---
 
 # 5. Create Your Frontend on GitHub
-
 
 - Open github, go to **Home** and create a new repository 
 - Set the repository to **Public**.
