@@ -1,11 +1,11 @@
-▶️ **# Watch the demo video **
+#**▶️ WATCH THE DEMO VIDEO **
 
 
 https://github.com/user-attachments/assets/bf310007-690b-4eae-82b4-97a0f23c07bc
 
 
 
-* Check the end-to-end guideline *
+#** CHECK THE END6TO6END GUIDELINE**
 
 Open the AWS Console and click on Amazon Q in the top-right corner for additional instructions.
 
